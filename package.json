@@ -1,0 +1,20 @@
+{
+  "name": "url-shorter",
+  "version": "1.0.0",
+  "description": "Assignment to implement a URL shortening service using Nodejs, Reactjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Mahmoud Metwally",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.3.4",
+    "shortid": "^2.2.16"
+  }
+}
